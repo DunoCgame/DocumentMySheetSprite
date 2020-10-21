@@ -1,0 +1,366 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#00004d;
+}
+
+.jumbotron{
+	width:100%;
+	height:300px;
+	background:red;
+	margin-bottom:8px;
+	
+	
+	
+}
+.jumbotron>.img-Jumbotron{
+	width:100%;
+	height:300px;
+	object-fit:fill;
+	display:block;
+	
+}
+p>a{
+	text-decoration:none;
+	color:white;
+}
+
+.SubTitulo{
+	color:white;
+	font-size:20px;
+	text-align:center;
+
+
+}
+
+
+.navbar{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		padding:10px;
+
+}
+.navbar-containner-img{
+	width:100px;
+	height:100px;
+}
+
+.navbar-containner-img>img{
+	width:100%;
+	height:100%;
+	object-fit:fill;
+}
+
+.menu{ 
+	
+}
+
+.menu>.menu-item{ 
+
+		float:left;
+		list-style:none;
+		padding:20px;
+		
+}
+
+.menu>.menu-item>.link{ 
+		background:white; 
+		font-size:43px;
+		text-decoration:none;
+		
+		border-radius:20px;
+}
+
+.menu>.menu-item>.alink{
+	border-radius:3px;
+	
+}
+
+.icon-instagram{
+background:linear-gradient(to bottom right, #993366 35%, #ffff00 89%); 
+
+/* */
+}
+
+.menu>.menu-item>.link:hover{
+-webkit-box-shadow: 0px 0px 32px 4px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 32px 4px rgba(255,255,255,1);
+box-shadow: 0px 0px 32px 4px rgba(255,255,255,1);
+
+
+
+}
+
+.main{
+	
+	/* height:100px; */
+	
+}
+
+.main>div{
+	margin-bottom:5px;
+
+}
+
+.title{
+	width:100%;
+	background:Blue;
+		text-align:center;
+		
+}
+.title>.link{
+	color:white;
+	width:100%;
+	font-size:40px;
+	text-decoration:none;
+
+	
+	
+}
+
+
+.sectiontprincipal{
+
+	display:flex;
+
+}
+
+.sectiontprincipal>.img-sectiontprincipal{
+	width:70%;
+	float:left;
+	
+	
+}
+.sectiontprincipal>.list-sectiontprincipal{
+	width:30%;
+	margin-left:40px;
+	margin-top:20px;
+	color:white;
+	font-size:19px;
+	font-weight:bold;
+	
+}
+
+.sectiontMenutop{
+	
+}
+.sectiontMenutop>img{
+	width:100%;
+	/* margin-bottom:2px; */
+	
+}
+.sectiontMenutop>.list-sectiontprincipal{
+	margin-left:200px;
+	color:white;
+	font-size:19px;
+	font-weight:bold;
+	padding:9px;	
+	display:grid; 
+	grid-template-columns:repeat(2, 300px); 
+	justify-content: center;
+}
+
+.sectiontMenu{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-item:center;
+	
+}
+.containnermenu{
+	display:flex;
+	flex-direction:row;
+	margin-top:10px;
+}
+
+.img-Menu2{
+	margin-left:20px;
+}
+
+
+
+.list-Menu{
+		margin-left:33px;
+		margin-top:20px;
+		color:white;
+		font-size:19px;
+		font-weight:bold;
+}
+
+
+.sectionPropCanvas{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-item:center;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.sectionPropCanvas>ol{
+	margin-left:30px;
+}
+.sectionPropCanvas>ol>li{
+	color:white;
+	font-size:19px;
+		font-weight:bold;
+}
+
+
+.sectiontPropRowsImg{
+
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-item:center;
+}
+
+.Rowsprop, .Imageprop{
+	width:300px;
+}
+.containnerPropImg, .containnerPropRows{
+	/* background:green; */
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-item:center;
+	
+}
+
+
+.sectiontAnimateprop{
+	
+	margin-top:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-item:center;
+	
+}
+
+
+.img-Animate{
+	width:350px;
+}
+
+.list-sectiontAnimate{
+	 margin-left:100px; 
+		color:white;
+		font-size:19px;
+		font-weight:bold;
+}
+
+.container-img-canvas{
+	width:100%;
+
+	display:flex;
+	justify-content:center;
+	align-item:center;
+	
+}
+
+.img-canvas{
+
+		margin-top:10px;
+		/* width:600px; */
+		/* height:300px; */
+		
+
+}
+
+.footer{
+	background:blue;
+	padding:10px;
+	
+}
+.footer>p{color:white; text-align:center;}
+
+
+/**********slideshow*************/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin:auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width:100%;
+ 
+}
+.mySlides>img{
+	
+	 height:340px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 90%;
+  text-align: center;
+  background:red;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/**********slideshow*************/
