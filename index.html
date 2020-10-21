@@ -1,231 +1,219 @@
+<!Doctype>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<style>
-
-*{
-<!-- padding:0px; -->
-margin:0px;
-
-}
-
-.body{
-
-background:#00004d;
-
-  <!-- background: linear-gradient(to bottom, #000066 0%, #0000cc 100%); -->
-}
-
-div {
-    background:#00004d;
-    <!-- background: linear-gradient(to bottom, #000066 80%, #336699 100%); -->
-	width:100%;
-}
-
-h1{
-color:white;
-padding:30px;
-}
-h2{
-color:white;
-padding:30px;
-font-size:30px;
-text-align:center;
-}
-
-h4{
-color:white;
-text-align:center;
-font-size:25px;
-}
-
-.SubTitulo{
-color:white;
-font-size:20px;
-margin-bottom:9px;
-}
-
-p{
-color:white;
-font-size:20px;
-
-}
-.SeconText{
-text-align:center;
-
-}
-
-p>a{
-text-decoration:none;
-color:white;
-}
-
-ul>li{
-list-style:none;
-
-}
-ul>li>a{
-	color:white;
-	font-size:70px;
-
-}
-ul>li>a>span{
-	color:white;
-	font-size:30px;
-}
-.Menu{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-.IMG_Class{
-width:400px;
-margin-bottom:20px;
-}
-
-img{
-width:540px;
-margin-bottom:20px;
-}
-.Menu_Item{
-float:left;
-color:white;
-font-size:26px;
-padding-right:70px;
-}
-
-.Menu_Item1{
-
-text-align:justify;
-
-color:white;
-font-size:30px;
-display:grid;
-grid-template-columns:repeat(3, 1fr);
-grid-template-rows:repeat(2, 1fr);
-grid-column-gap:0px;
-grid-row-gap: 2px;
-
-}
-.Logo{
-
-width:350px;
-height:200px;
-}
-</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	<link rel="shortcut icon" href="asset/img/favicon.png" >
+	<link rel="stylesheet" type="text/css" href="asset/css/main.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/iconos.css">
 </head>
-
 <body class="body">
-<div>
-<center>
+	<header class="header">	
+			<div class="jumbotron">
+				<img class="img-Jumbotron"src="asset/img/portada.png" alt="img Jumbotron Web MySheetSprite">
+				<p class="SubTitulo"><a href="#">MySheetSprite</a>  Software for the development of sprite sheets</p>
+			</div>
+			
+			<nav class="navbar">
+				<!-- <figure class="navbar-containner-img"> -->
+					<!-- <img src="asset/img/favicon.png" attr="logo web MySheetSprite"> -->
+				<!-- </figure> -->
+<ul class="menu">
+	<li class="menu-item"><a class="link icon-blogger" href="http://dunocgame.blogspot.com/"></a></li>
+	<li class="menu-item"><a class="link icon-instagram" href=""></a></li>
+	<li class="menu-item"><a class="link icon-twitter alink" href="https://twitter.com/DunoCgame"></a></li>
+	<li class="menu-item"><a class="link icon-itch-dot-io alink" href="https://dunocgame.itch.io/mysheetsprite"></a></li>
+	<li class="menu-item"><a class="link icon-linkedin" href="https://www.linkedin.com/in/luis-edgardo-duno-castellano-dunoc/"></a></li>
+	<li class="menu-item"><a class="link icon-patreon alink" href="https://www.patreon.com/DunoC"></a></li>
+</ul>
+			</nav>
+	</header>
+	<main class="main">
+	<!-- <div class="slideShow"> -->
+		
+	<!-- Slideshow container -->
+<div class="slideshow-container">
 
-<img class="Logo" src="img/Logo.png">
-<p class="SubTitulo"><a href="#">MySheetSprite</a>  Software for the development of sprite sheets</p>
-</center>
-<hr>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="asset/img/img1.png" style="width:100%">
+  </div>
 
+  <div class="mySlides fade">
+    <img src="asset/img/img2.png" style="width:100%">
+  </div>
 
-<p class="SeconText">MySheetSprite is a software that will allow you to build your own necessary Sprite sheets for your project.</p>
-
-
-<!-- <center> -->
-<h2>Sections of MySheetSprite</h2>
-<img class="IMG_Class"src="img/MySheetSprite_1.png">
-
-<ol class="Menu_Item">
-  <li>Folder Images</li>
-  <li>Canvas Control</li>
-  <li>Image Control</li>
-  <li>Image property</li>
-  <li>Canvas</li>
-  <li>Control Menu</li>
-  <li>Animation view</li>
-  <li>Animation Control</li>
-  <li>Selected Images</li>
-</ol>
-
-
-
-<center>
-<!-- -->
-<h4>1. Folder Images</h4>
-<p>It shows the images contained in the folder when pressing the button "Open Folder".</p>
-	<img src="img/MySheetSprite_2.png">
-	<br>
-<!-- -->
-<!-- -->
-<h4>2. Canvas Control</h4>
-<p>Allows you to control the background color that the canvas has, as well as the number of rows of images that will contain pressing "Add Line".</p>
-	<img src="img/MySheetSprite_11.png">
-	<br>
-<!-- -->
-<!-- -->
-<h4>3. Image Control</h4>
-<p>presents the inputs that allow adding</p>
-<!-- <center> -->
-<ol class="Menu_Item1">
-		<li>Initial img</li>
-		<li>Final Img</li>
-		<li>Width Img</li>
-		<li>Height Img</li>
-		<li>Delete Button</li>
-		<li>Load-Refresh Buttom</li>
-</ol>
-<!-- </center> -->
-	<img src="img/MySheetSprite_12.png">
-	<br>
-<!-- -->
-<!-- -->
-<h4>4. Control Menu</h4>
-<p>presents the inputs that allow adding</p>
-<center>
-	<ul class="menu">
-<li><a class="icon-Openfolders"><span>Open Floder</span> </a></li>
-<li><a class="icon-Acceptfolders"> <span>Accept Folders</span></a></li>
-<li><a class="icon-Clearfolders"><span>Clear Folders</span></a></li>
-<li><a class="icon-Downloadfolders"><span>Download Folders</span></a></li>
-
-	</ul>
-</center>
-<!-- -->
-	<br>
-	<p>Best menu</p>
-	<img src="img/MySheetSprite_5.png">
-	<br>
-	<img src="img/MySheetSprite_10.png">
-	<br>
-	<h4>5. Canvas</h4>
-	<p>Show the arrangement of configured images.</p>
-	<img src="img/MySheetSprite_4.png">
-	<br>
-	<h4>6. Animation view</h4>
-	<p>preview the animation of the images according to the selected line.</p>
-	<img src="img/MySheetSprite_6.png">
-	<br>
-	<h4>7. Animation Control</h4>
-	<p>Allows you to select the line to animate as well as control the state of this</p>
-	<img src="img/MySheetSprite_7.png">
-	<br>
-	<h4>8. Selected Images</h4>
-	<p>Show the images of the selected line.</p>
-	<img src="img/MySheetSprite_8.png">
-	<br>
-	<h4>View of MySheetSprite</h4>
-	<img src="img/MySheetSprite_9.png">
-	<br>
-	
-</center>
+  <div class="mySlides fade">
+    <img src="asset/img/img3.png" style="width:100%">
+  </div>
 
 
-<!-- </center> -->
+  <div class="mySlides fade">
+    <img src="asset/img/img4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="asset/img/img5.png" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="asset/img/img6.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="asset/img/img7.png" style="width:100%">
+  </div>
+  
+<div class="mySlides fade">
+    <img src="asset/img/img8.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+
+	<!-- </div> -->
+	
+			<h2 class="title"><a class="link" href="#">Sections of MySheetSprite</a></h2>
+			<div class="sectiontprincipal"> 	
+				<img class="img-sectiontprincipal" src="asset/img/Interfaz.png"> 
+				<ol class="list-sectiontprincipal">
+				  <li>Menu Top</li>
+				  <li>Menu of Interface</li>
+				  <li>Property Canvas</li>
+				  <li>Control Image</li>
+				  <li>Image Property</li>
+				  <li>Canvas</li>			  
+				  <li>Animation View</li>
+				  <li>Animation Control</li>
+				  <li>Selected Images</li>
+				</ol>
+			</div>
+			
+			<h2 class="title"><a class="link" href="#">Menu Top</a></h2>
+			<div class="sectiontMenutop"> 	
+						
+				<img class="img-Menutop" src="asset/img/MenuTop.png"> 
+				<ol class="list-sectiontprincipal">
+				  <li>Open folder</li>
+				  <li>Clear folder</li>
+				  <li>Save</li>
+				  <li>Animate</li>
+				  <li>Update</li>
+				  <li>Document</li>
+				</ol>
+		
+			</div>
+			
+			<h2 class="title"><a class="link" href="#">Menu of Interface</a></h2>
+			<div class="sectiontMenu"> 	
+					
+					<div  class="containnermenu" style="width:50%;">
+							<img class="img-Menu2" src="asset/img/Menu1.png" >
+							<ol class="list-Menu" >
+							  <li>Select Img</li>
+							  <li>Open folder</li>
+							  <li>Clear folder</li>
+							  <li>Save</li>
+							</ol>
+					</div>
+					
+					<div  class="containnermenu" style="width:50%;">
+							<img class="img-Menu2" src="asset/img/Menu2.png"  >
+							<ol class="list-Menu" >
+							  <li>Acept Img</li>
+							  <li>Open folder</li>
+							  <li>Clear folder</li>
+							  <li>Save</li>
+							</ol>
+					</div>
+			</div>
+
+			<h2 class="title"><a class="link" href="#">Property Canvas</a></h2>
+			<div class="sectionPropCanvas"> 	
+				<img class="img-sectiontpropiedadesCanvas" src="asset/img/Propiedades.png">
+				<ol class="list-sectiontprincipal">
+				  <li>Number de Image</li>
+				  <li>Number of rows</li>
+				  <li>background color</li>
+				</ol>
+			</div>
+			
+	
+	<h2 class="title"><a class="link" href="#">Property Images and Rows</a></h2>
+	<div class="sectiontPropRowsImg">	
+			
+			<div  class="containnerPropImg ">
+					<img class="Imageprop" src="asset/img/Imagesprop.png" >
+					<ol class="list-Menu" >
+					  <li>Image area indicator</li>
+					  <li>Hide image</li>
+					  <li>Delete image</li>
+					  <li>Show image</li>
+					  <li>Name image</li>
+					  <li>Image</li>
+					  <li>Number image</li>
+					  <li>Area image</li>
+					</ol>
+			</div>
+			
+			<div  class="containnerPropRows" >
+					<img class="Rowsprop" src="asset/img/Rowsprop.png"  >
+					<ol class="list-Menu" >
+					  <li>Row indicator</li>
+					  <li>Image size "width and height"</li>
+					  <li>Add row</li>
+					  <li>Add Image</li>
+					  <li>Update image</li>
+					  <li>Rows and numbers</li>
+					  <li>Area rows</li>
+					</ol>
+			</div>
+		</div>
+		
+		<h2 class="title"><a class="link" href="#">Property Animate</a></h2>
+			<div class="sectiontAnimateprop"> 	
+						
+				<img class="img-Animate" src="asset/img/Animate.png"> 
+				<ol class="list-sectiontAnimate">
+				  <li>Add rows</li>
+				  <li>Area animation</li>
+				  <li>add rows button</li>
+				  <li>Delete rows button</li>
+				   <li>Animation speed</li>
+				   
+				   <li>row indicator</li>
+				   
+				   <li>Next Animation</li>
+				   <li>previous Animation</li>
+				   <li>Stop Animation</li>
+				   <li>Image</li>
+				   <li>Play Animation</li>
+			
+				</ol>
+		
+			</div>
+			
+		
+			<h2 class="title"><a class="link" href="#">Canvas</a></h2>
+			<div class="container-img-canvas">
+				<img class="img-canvas" src="asset/img/canvas.png">
+			</div>
+		
+		
+
+
+		
+		
+	
+	</main>
+
+
+
 </body>
-
-
-
+<footer class="footer">
+<p>MySheetSprite 1.2.0 documentation 1.2.0 DunoCgame developer Luis Edgardo Duno Castellano Copyright &copy; All Rights Reserved</p>
+</footer>
+<script src="asset/js/main.js"></script>
 </html>
